@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
     nil
-  elsif name_hash.collect do |key, value|
+  else name_hash.collect do |key, value|
     value
   end
 end
